@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+    margin-left: 70%;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li:hover{
+background-color: red;
+}
+
+ul li a:hover{
+    color: green;
+}
