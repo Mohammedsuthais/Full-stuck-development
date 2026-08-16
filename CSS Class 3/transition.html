@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Class 8</title>
+    
+
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-delay: 100ms;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+            transition-property: all;
+            margin-top: 20%;
+            margin-left: 50%;
+        }
+
+        /* .box:hover{
+            width: 500px;
+            background-color: blue;
+        } */
+
+        /* .box:hover{
+            transform: translateX(100px);
+        } */
+
+        /* .box:hover{
+            transform: translateY(100px);
+        } */
+
+        /* .box:hover{
+            transform: translate(100px, 100px);
+        } */
+
+
+        /* .box:hover{
+            transform: rotate(180deg);
+        } */
+
+
+        .box:hover{
+            transform: scale(2);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
